@@ -1,0 +1,29 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: 123456
+
+
+    logging:
+  level:
+    root: info
+    com.lrm: debug
+  file:
+    name: log/blog-dev.log
+
+
+
+  jpa:
+    open-in-view: false
+  port: 8081
+
+mybatis:
+  type-aliases-package: com.example.demo.po
+  mapper-locations: classpath:mapper/*.xml
+
+
+

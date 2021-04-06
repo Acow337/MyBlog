@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="admin/_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>博客管理</title>
+<!--  /../../static/css/me.css  -->
+    <link rel="stylesheet" href="../../static/css/me.css">
+    <link href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+<body>
+
+<!--导航-->
+<nav th:replace="admin/_fragments :: menu(0)" class="ui blue inverted attached segment m-padded-tb-mini m-shadow-small">
+    <div class="ui container">
+<div class="ui inverted secondary stackable menu">
+    <h2 class="ui black header item">后台管理</h2>
+    <a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>博客</a>
+    <a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+    <a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+    <div class="right m-item m-mobile-hide menu">
+        <div class="ui dropdown item">
+            <div class="text">
+                <img class="ui avatar image" src="../../static/images/img.png" th:src="@{/images/img.png}">
+                Acow337
+            </div>
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <a href="#" th:href="@{/admin/logout}" class="item">注销</a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+<a href="#" class="ui menu toggle blue icon button m-right-top m-mobile-show">
+    <i class="sidebar icon"></i>
+</a>
+</nav>
+
+<div class="ui attached pointing menu">
+    <div class="ui container">
+        <div class="right menu">
+            <a href="#" class="item">发布</a>
+            <a href="#" class="active item">列表</a>
+        </div>
+    </div>
+</div>
+
+
+
+<!--中间内容-->
+
+<div class="m-container-small m-padded-tb-massive">
+    <div class="ui container">
+        <div class="ui success large message">
+            <h3>Hi,</h3>
+            <p>Acow337,欢迎登录!</p>
+        </div>
+
+
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--底部footer-->
+<footer th:replace="admin/_fragments :: footer" class="ui blue inverted vertical segment" m-padded-tb-massive>
+<div class="ui center aligned container">
+ <div class="ui inverted divided stackable grid">
+     <div class="five wide column">
+         <h4 class="ui inverted header">最新博客</h4>
+         <div class="ui inverted link list">
+             <a href="#" class="item">title1</a>
+             <a href="#" class="item">title2</a>
+             <a href="#" class="item">title3</a>
+         </div>
+     </div>
+     <div class="five wide column">
+         <h4 class="ui inverted header">联系我</h4>
+         <div class="ui inverted link list">
+             <a class="item">QQ:1123858388</a>
+             <a class="item">Github:https://github.com/Acow337</a>
+         </div>
+     </div>
+     <div class="five wide column">
+         <h4 class="ui inverted header">我的博客</h4>
+        <p class="m-text-thin m-text-spaced  m-opacity-mini">这是我的个人博客....</p>
+     </div>
+ </div>
+    <div class="ui inverted section divider"></div>
+    <p class="m-text-thin m-text-spaced m-opacity-tiny">-------------------</p>
+</div>
+</footer>
+
+
+
+<script src="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script>
+    $('.menu.toggle').click(function (){
+       $('.m-item').toggleClass('m-mobile-hide');
+    });
+
+    $('.ui.dropdown').dropdown({
+        on:'hover'
+    });
+     
+</script>
+</body>
+</html>

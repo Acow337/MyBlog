@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.mapper.TypeMapper">
+    <insert id="saveType" >
+        insert into blog.type(name) VALUES(#{name})
+    </insert>
+
+    <select id="getType" resultType="Type">
+        select * from blog.type where id=#{id}
+    </select>
+
+    <select id="listType" resultType="com.example.demo.po.Type">
+        select * from blog.type limit #{pageNo},#{pageSize}
+    </select>
+
+    <select id="listAllType" resultType="com.example.demo.po.Type">
+        select * from blog.type
+    </select>
+
+    <update id="updateType">
+        update blog.type set name=#{name} where id=#{id}
+    </update>
+
+    <delete id="deleteType" parameterType="Long">
+        delete from blog.type where id=#{id}
+    </delete>
+
+    <select id="findByName" resultType="Type">
+        select * from blog.type where name=#{name}
+    </select>
+
+</mapper>

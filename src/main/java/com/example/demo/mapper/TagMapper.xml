@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.mapper.TagMapper">
+    <insert id="saveTag" >
+        insert into blog.tag(name) VALUES(#{name})
+    </insert>
+
+    <select id="getTag" resultType="Tag">
+        select * from blog.tag where id=#{id}
+    </select>
+
+    <select id="listTag" resultType="com.example.demo.po.Tag">
+        select * from blog.tag limit #{pageNo},#{pageSize}
+    </select>
+
+    <select id="listAllTag" resultType="com.example.demo.po.Tag">
+        select * from blog.tag
+    </select>
+
+    <update id="updateTag">
+        update blog.tag set name=#{name} where id=#{id}
+    </update>
+
+    <delete id="deleteTag" parameterType="Long">
+        delete from blog.tag where id=#{id}
+    </delete>
+
+    <select id="findByName" resultType="Tag">
+        select * from blog.tag where name=#{name}
+    </select>
+
+</mapper>
