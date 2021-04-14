@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.HashMap;
 import java.util.List;
 
 @Repository
@@ -19,9 +20,11 @@ public interface TagMapper {
 
     List<Tag> listAllTag();
 
+    List<Tag> listTags(HashMap map);
+
     void updateTag(@Param("id")Long id,@Param("name")String name);
 
     void deleteTag(@Param("id") Long id);
 
-    Type findByName(@Param("id") String name);
+    Tag findByName(@Param("id") String name);
 }

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:fragment="head(title)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title th:replace="${title}">博客详情</title>
+    <link rel="stylesheet" href="../static/lib/css/me.css" th:href="@{/static/lib/css/me.css}">
+    <link rel="stylesheet" href="../static/lib/css/typo.css" th:href="@{~/lib/css/typo.css}">
+    <link rel="stylesheet" href="../static/lib/prism/prism.css" th:href="@{~/lib/prism/prism.css}">
+    <link rel="stylesheet" href="../static/lib/css/animate.css" th:href="@{~/lib/css/animate.css}">
+    <link rel="stylesheet" href="../static/lib/tocbot/tocbot.css" th:href="@{~/lib/tocbot/tocbot.css}">
+    <link rel="stylesheet" href="../static/lib/editormd/css/editormd.min.css" th:href="@{~/lib/editormd/css/editormd.min.css}">
+    <link href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+<body>
+<!--导航-->
+<nav th:fragment="menu(n)" class="ui blue inverted attached segment">
+    <div class="ui container">
+        <div class="ui inverted secondary stackable menu">
+            <h2 class="ui black header item">Acow337</h2>
+            <a href="#" class="m-item item m-mobile-hide" th:href="@{/0/6}" th:classappend="${n==1} ? 'active'"><i class="home icon"></i>首页</a>
+            <a href="#" class="m-item item m-mobile-hide" th:href="@{/types/-1/0/6}" th:classappend="${n==2} ? 'active'"><i class="idea icon"></i>分类</a>
+            <a href="#" class="m-item item m-mobile-hide" th:href="@{/tags/-1/0/6}" th:classappend="${n==3} ? 'active'"><i class="tags icon"></i>标签</a>
+            <a href="#" class="m-item item m-mobile-hide" th:href="@{/archives}" th:classappend="${n==4} ? 'active'"><i class="clone icon"></i>归档</a>
+            <a href="#" class="m-item item m-mobile-hide" th:href="@{/about}" th:classappend="${n==5} ? 'active'"><i class="info icon"></i>关于我</a>
+            <div class="right item m-mobile-hide">
+                <form name="search" method="post" action="#" th:action="@{/search/0/6}" target="_blank">
+                <div class="ui icon inverted transparent input">
+                    <input type="text" name="query" placeholder="Search..." th:value="${query}">
+                    <i onclick="document.forms['search'].submit()" class="search link icon"></i>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="ui menu toggle blue icon button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+
+</nav>
+
+<!--footer-->
+<footer th:fragment="footer" class="ui blue inverted vertical segment" m-padded-tb-massive>
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="five wide column">
+                <h4 class="ui inverted header">最新博客</h4>
+                <div id="newblog-container">
+                <div class="ui inverted link list" th:fragment="newBlogList">
+                    <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="item" th:each="blog : ${newBlogs}" th:text="${blog.title}">title1</a>
+                </div>
+                </div>
+            </div>
+            <div class="five wide column">
+                <h4 class="ui inverted header">联系我</h4>
+                <div class="ui inverted link list">
+                    <div>Email:<a th:text="#{index.email}" class="item">yzjin2001@qq.com</a></div>
+                    <div>QQ:<a th:text="#{index.qq}" class="item">1123858388</a></div>
+                    <div>Github:<a th:href="@{https://github.com/Acow337}" th:target="_blank" th:text="#{index.github}" class="item">https://github.com/Acow337</a></div>
+                </div>
+            </div>
+            <div class="five wide column">
+                <h4 class="ui inverted header">我的博客</h4>
+                <p class="m-text-thin m-text-spaced  m-opacity-mini">这是我的个人博客....</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-tiny">-------------------</p>
+    </div>
+</footer>
+
+<!--js-->
+<th:block th:fragment="script">
+    <script src="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../../static/lib/editormd/editormd.amd.min.js" th:src="@{/lib/editormd/editormd.amd.min.js}"></script>
+    <script src="../../static/lib/prism/prism.js" th:src="@{/lib/prism/prism.js}"></script>
+    <script src="../../static/lib/tocbot/tocbot.min.js" th:src="@{/lib/tocbot/tocbot.min.js}"></script>
+    <script>
+        var contentEditor;
+
+        $('.menu.toggle').click(function (){
+            $('.m-item').toggleClass('m-mobile-hide');
+        });
+
+        $('.qq').popup();
+        $('.github').popup();
+
+
+        $(function() {
+            contentEditor = editormd("md-content", {
+                width   : "100%",
+                height  : 640,
+                syncScrolling : "single",
+                path : "/lib/editormd/lib/"
+                // path    : "../static/lib/editormd/lib/"
+            });
+        });
+
+        $('.menu.toggle').click(function (){
+            $('.m-item').toggleClass('m-mobile-hide');
+        });
+
+        $('.ui.dropdown').dropdown({
+            on:'hover'
+        });
+
+        $('.ui.form').form({
+            fields:{
+                title:{
+                    identifier:'title',
+                    rules:[{
+                        type:'empty',
+                        prompt:'标题:请输入博客标题'
+                    }]
+                },
+                content:{
+                    identifier:'content',
+                    rules:[{
+                        type:'empty',
+                        prompt:'标题:请输入博客内容'
+                    }]
+                },
+                typeId:{
+                    identifier:'typeId',
+                    rules:[{
+                        type:'empty',
+                        prompt:'标题:请输入博客分类'
+                    }]
+                },
+                firstPicture:{
+                    identifier:'firstPicture',
+                    rules:[{
+                        type:'empty',
+                        prompt:'标题:请输入博客首图'
+                    }]
+                }
+            }
+        });
+
+        $('#saveBtn').click(function(){
+            $('[name="published"]').val(false);
+            $('#blogForm').submit();
+        });
+
+        $('#publishBtn').click(function(){
+            $('[name="published"]').val(true);
+            $('#blogForm').submit();
+        });
+
+        $('#newblog-container').load(/*[[@{/footer/newBlog}]]*/"/footer/newBlog");
+
+    </script>
+</th:block>
+
+</body>
+</html>

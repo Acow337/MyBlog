@@ -8,22 +8,23 @@ spring:
     password: 123456
 
 
-    logging:
-  level:
-    root: info
-    com.lrm: debug
+  logging:
+    level:
+      root: info
+      com.lrm: debug
+
   file:
     name: log/blog-dev.log
 
 
-
   jpa:
     open-in-view: false
-  port: 8081
 
 mybatis:
   type-aliases-package: com.example.demo.po
   mapper-locations: classpath:mapper/*.xml
 
+server:
+  port: 8080
 
 

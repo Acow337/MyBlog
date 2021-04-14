@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>博客管理</title>
 <!--  /../../static/css/me.css  -->
-    <link rel="stylesheet" href="../../static/css/me.css">
+    <link rel="stylesheet" href="../../static/lib/css/me.css/../static/lib/me.css/../static/css/me.css">
     <link href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.css" rel="stylesheet">
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
     </script>
@@ -54,19 +54,18 @@
 
 <div class="m-container-small m-padded-tb-massive">
     <div class="ui container">
-        <form action="#" method="post" class="ui segment form">
+        <form action="#" th:action="@{/admin/blogs/search/{num}/{size}(num=${num},size=${size})}" method="post" class="ui secondary segment form">
             <div class="inline fields">
-                <div class="field">
-                <input type="text" name="title" placeholder="标题">
-                </div>
+<!--                <div class="field">-->
+<!--                <input type="text" name="title" placeholder="标题">-->
+<!--                </div>-->
                 <div class="field">
                     <div class="ui selection dropdown">
                         <input type="hidden" name="type">
                         <i class="dropdown icon"></i>
                         <div class="default text">分类</div>
-                        <div class="menu">
-                            <div class="item" data-value="1">错误日志</div>
-                            <div class="item" data-value="2">开发者手册</div>
+                        <div th:name="id" name="id" class="menu">
+                              <div th:each="type : ${types}" class="item" th:text="${type.name}" th:data-value="${type.id}" >错误日志</div>
                         </div>
                     </div>
                 </div>
@@ -84,42 +83,51 @@
             </div>
         </form>
 
-        <table class="ui celled table">
+        <table th:fragment="blogList" class="ui compact teal table">
             <thead>
             <tr>
                 <th></th>
                 <th>标题</th>
                 <th>类型</th>
                 <th>推荐</th>
+                <th>状态</th>
                 <th>更新时间</th>
                 <th>操作</th>
             </tr>
             </thead>
             <tbody>
-            <tr>
-                <td>1</td>
-                <td>刻意练习清单</td>
-                <td>认知升级</td>
-                <td>是</td>
-                <td>2020-3-29 21:56</td>
+            <tr th:each="blog : ${page}">
+                <td th:text="${blog.id}">1</td>
+                <td th:text="${blog.title}">刻意练习清单</td>
+   <!-- ???????分类名字-->           <td th:text="${blog.type_id}">认知升级</td>
+                <td th:text="${blog.recommend}?'是':'否'">是</td>
+                <td th:text="${blog.published}?'草稿':'发布'">发布</td>
+                <td th:text="${#dates.format(blog.update_time,'yyyy-MM-dd HH:mm')}">2020-3-29 21:56</td>
                 <td>
-                    <a href="#" class="ui mini teal basic button">编辑</a>
-                    <a href="#" class="ui mini red basic button">删除</a>
+                    <a href="#" th:href="@{/admin/blogs/{id}/update(id=${blog.id})}" class="ui mini teal basic button">编辑</a>
+                    <a href="#" th:href="@{/admin/blogs/{id}/delete(id=${blog.id})}" class="ui mini red basic button">删除</a>
                 </td>
             </tr>
             </tbody>
             <tfoot>
             <tr>
-                <th colspan="6">
+                <th colspan="7">
                     <div class="ui floated pagination mini menu">
-                        <a class="item">上一页</a>
-                        <a class="item">下一页</a>
+                        <a th:href="(${num}==0)?@{#}:@{/admin/blogs/{num}/{size}(num=${num}-${size},size=${size})}" class="item">上一页</a>
+                        <a th:href="(${num}==(${pageNum}-1)*${size})?@{#}:@{/admin/blogs/{num}/{size}(num=${num}+${size},size=${size})}" class="item">下一页</a>
                     </div>
-                    <a href="#" class="ui mini teal right floated basic button">新增</a>
+                    <a href="#" th:href="@{/admin/blogs/input}" class="ui mini teal right floated basic button">新增</a>
                 </th>
             </tr>
             </tfoot>
         </table>
+
+        <div class="ui success message" th:unless="${#strings.isEmpty(message)}">
+            <i class="close icon"></i>
+            <div class="header">提示:</div>
+            <p th:text="${message}">恭喜，操作成功</p>
+        </div>
+
 
     </div>
 </div>
@@ -173,6 +181,13 @@
     $('.ui.dropdown').dropdown({
         on:'hover'
     });
+
+    $('.message .close')
+        .on('click',function () {
+            $(this)
+                .closest('.message')
+                .transition('fade');
+        });
      
 </script>
 </body>

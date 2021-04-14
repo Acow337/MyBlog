@@ -24,7 +24,6 @@ public class ControllerExceptionHandler {
             throw e;
         }
 
-
         ModelAndView mv=new ModelAndView();
         mv.addObject("url",request.getRequestURL());
         mv.addObject("exception",e);

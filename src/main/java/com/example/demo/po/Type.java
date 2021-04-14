@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Type {
 
-    private Long id;
+    public Long id;
 
     @NotNull
     private String name;

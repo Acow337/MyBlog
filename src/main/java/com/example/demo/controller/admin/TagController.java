@@ -33,7 +33,7 @@ public class TagController {
     public String saveTag(@Validated Tag tag, BindingResult result){
 
         if(tagService.findByName(tag.getName())!=null){
-            return "admin/tags-input";
+            return "redirect:/admin/tags/input";
         }
 
         tagService.saveTag(tag.getName());

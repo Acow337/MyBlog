@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.mapper.BlogMapper">
+
+    <select id="getCreateTime" resultType="Date">
+        select create_time from blog.blog where id=#{id}
+    </select>
+
+    <select id="getBlog" resultType="com.example.demo.po.Blog">
+        select * from blog.blog where id=#{id}
+    </select>
+
+    <select id="getBlogId" resultType="Long">
+        select id from blog.blog where title = #{title}
+    </select>
+
+    <select id="listBlog" resultType="com.example.demo.po.Blog">
+        select * from blog.blog limit #{pageNo},#{pageSize}
+    </select>
+
+    <select id="listAllBlog" resultType="com.example.demo.po.Blog">
+        select * from blog.blog
+    </select>
+
+    <select id="listBlogByTypeId" resultType="com.example.demo.po.Blog">
+        select * from blog.blog where type_id=#{typeId}
+    </select>
+
+    <select id="listBlogById" resultType="com.example.demo.po.Blog">
+        select * from blog.blog where type_id=#{id} limit #{pageNo},#{pageSize}
+    </select>
+
+    <select id="listBlogByYear" resultType="com.example.demo.po.Blog">
+        select * from blog.blog where date_format(blog.blog.update_time,'%Y')=#{year}
+    </select>
+
+    <select id="listNewBlog" resultType="com.example.demo.po.Blog">
+        select * from blog.blog order by blog.blog.update_time desc limit 0,#{size}
+    </select>
+
+    <select id="saveBlog" parameterType="com.example.demo.po.Blog">
+        insert into blog.blog(content, create_time, first_picture, flag, published,
+                              recommend, share_statement, title,
+                              update_time, views, type_id, user_id) values
+            (#{content}, #{create_time}, #{first_picture}, #{flag}, #{published},
+             #{recommend}, #{share_statement},#{title},
+             #{update_time}, #{views}, #{type_id}, #{user_id})
+    </select>
+
+    <select id="listBlogCon" resultType="com.example.demo.po.Blog">
+        select * from blog.blog where id=#{id}
+    </select>
+
+
+    <update id="updateBlog" parameterType="com.example.demo.po.Blog">
+        update blog.blog set content=#{newBlog.content}, create_time=#{newBlog.create_time},
+                             first_picture=#{newBlog.first_picture}, flag=#{newBlog.flag}, published=#{newBlog.published},
+                             recommend=#{newBlog.recommend}, share_statement=#{newBlog.share_statement}, title=#{newBlog.title},
+                             update_time=#{newBlog.update_time}, views=#{newBlog.views}, type_id=#{newBlog.type_id}, user_id=#{newBlog.user_id}
+            where id=#{id}
+    </update>
+
+    <delete id="deleteBlog">
+        delete from blog.blog where id=#{id}
+    </delete>
+
+    <select id="listBlogRec" resultType="com.example.demo.po.Blog">
+        select * from blog.blog where blog.recommend=true limit #{pageNo},#{pageSize}
+    </select>
+
+    <select id="listBlogQue" resultType="com.example.demo.po.Blog">
+        SELECT * FROM blog.blog WHERE blog.title LIKE #{query}
+    </select>
+
+    <select id="getYear" resultType="String">
+        select date_format(blog.blog.update_time,'%Y') as year from blog.blog group by year order by year desc
+    </select>
+
+</mapper>

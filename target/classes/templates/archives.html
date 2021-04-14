@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments :: head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>归档</title>
-    <link rel="stylesheet" href="../static/css/me.css">
+    <link rel="stylesheet" href="../static/lib/css/me.css/static/lib/me.css/static/css/me.css">
     <link href="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.css" rel="stylesheet">
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
     </script>
@@ -12,7 +12,7 @@
 <body>
 
 <!--导航-->
-<nav class="ui blue inverted attached segment m-padded-tb-mini m-shadow-small">
+<nav th:replace="fragments :: menu(4)" class="ui blue inverted attached segment m-padded-tb-mini m-shadow-small">
     <div class="ui container">
 <div class="ui inverted secondary stackable menu">
     <h2 class="ui black header item">Acow337</h2>
@@ -46,29 +46,26 @@
                     <h3 class="ui teal header">归档</h3>
                 </div>
                 <div class="right aligned column">
-                    共<h2 class="ui orange header m-inline-block m-text-thin">0</h2>篇博客
+                    共<h2 class="ui orange header m-inline-block m-text-thin" th:text="${blogCount}">0</h2>篇博客
                 </div>
             </div>
         </div>
 
         <!--2021-->
-        <h2 class="ui centered aligned header">2021</h2>
+        <th:block th:each="item : ${archiveMap}">
+        <h2 class="ui centered aligned header" th:text="${item.key}">2021</h2>
         <div class="ui fluid vertical menu">
-            <a href="#" target="_blank" class="item">
+            <a href="#" target="_blank" class="item" th:each="blog : ${item.value}">
                 <span>
-                <i class="mini teal circle icon"></i>关于刻意练习的清单
-                    <div class="ui teal basic left pointing label m-padded-mini">3月29</div>
+                <i class="mini teal circle icon"></i><span th:text="${blog.title}">关于刻意练习的清单</span>
+                <div class="ui teal basic left pointing label m-padded-mini" th:text="${#dates.format(blog.update_time,'MMMdd')}">3月29</div>
                 </span>
-                    <div class="ui orange basic left pointing label m-padded-mini">转载</div>
-            </a>
-            <a href="#" target="_blank" class="item">
-                <span>
-                <i class="mini teal circle icon"></i>关于刻意练习的清单
-                    <div class="ui teal basic left pointing label m-padded-mini">3月29</div>
-                </span>
-                <div class="ui orange basic left pointing label m-padded-mini">转载</div>
+                    <div class="ui orange basic left pointing label m-padded-mini" th:text="${blog.flag}">转载</div>
             </a>
         </div>
+        </th:block>
+
+
 </div>
 </div>
 
@@ -81,7 +78,7 @@
 <br>
 
 <!--底部footer-->
-<footer class="ui blue inverted vertical segment m-padded-tb-massive">
+<footer th:replace="fragments :: footer" class="ui blue inverted vertical segment m-padded-tb-massive">
 <div class="ui center aligned container">
  <div class="ui inverted divided stackable grid">
      <div class="five wide column">
@@ -111,6 +108,7 @@
 
 
 
+<th:block th:replace="fragments :: script">
 <script src="https://cdn.bootcss.com/semantic-ui/2.3.1/semantic.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script>
@@ -119,5 +117,6 @@
     });
      
 </script>
+</th:block>
 </body>
 </html>

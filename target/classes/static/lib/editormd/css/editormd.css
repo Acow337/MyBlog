@@ -21,7 +21,7 @@
   position: relative;
   margin-bottom: 15px;
   border: 1px solid #ddd;
-  font-family: "Meiryo UI", "Microsoft YaHei", "Malgun Gothic", "Segoe UI", "Trebuchet MS", Helvetica, "Monaco", monospace, Tahoma, STXihei, "åæ–‡ç»†é»‘", STHeiti, "Helvetica Neue", "Droid Sans", "wenquanyi micro hei", FreeSans, Arimo, Arial, SimSun, "å®‹ä½“", Heiti, "é»‘ä½“", sans-serif;
+  font-family: "Meiryo UI", "Microsoft YaHei", "Malgun Gothic", "Segoe UI", "Trebuchet MS", Helvetica, "Monaco", monospace, Tahoma, STXihei, "»ªÎÄÏ¸ºÚ", STHeiti, "Helvetica Neue", "Droid Sans", "wenquanyi micro hei", FreeSans, Arimo, Arial, SimSun, "ËÎÌå", Heiti, "ºÚÌå", sans-serif;
 }
 .editormd *, .editormd *:before, .editormd *:after {
   -webkit-box-sizing: border-box;
@@ -682,7 +682,7 @@
   float: left;
   border-right: 1px solid #ddd;
   font-size: 14px;
-  font-family: "YaHei Consolas Hybrid", Consolas, "å¾®è½¯é›…é»‘", "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS", Helvetica, "Monaco", courier, monospace;
+  font-family: "YaHei Consolas Hybrid", Consolas, "Î¢ÈíÑÅºÚ", "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS", Helvetica, "Monaco", courier, monospace;
   line-height: 1.6;
   margin-top: 35px;
 }
@@ -3174,7 +3174,7 @@
   -webkit-text-size-adjust: 100%;
   color: #333;
   overflow: hidden;
-  font-family: "Microsoft YaHei", Helvetica, "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS", "Monaco", monospace, Tahoma, STXihei, "åæ–‡ç»†é»‘", STHeiti, "Helvetica Neue", "Droid Sans", "wenquanyi micro hei", FreeSans, Arimo, Arial, SimSun, "å®‹ä½“", Heiti, "é»‘ä½“", sans-serif;
+  font-family: "Microsoft YaHei", Helvetica, "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS", "Monaco", monospace, Tahoma, STXihei, "»ªÎÄÏ¸ºÚ", STHeiti, "Helvetica Neue", "Droid Sans", "wenquanyi micro hei", FreeSans, Arimo, Arial, SimSun, "ËÎÌå", Heiti, "ºÚÌå", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;

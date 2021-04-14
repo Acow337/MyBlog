@@ -1,7 +1,5 @@
 package com.example.demo.po;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,24 +9,76 @@ import java.util.List;
 
 public class Blog {
 
-    private Long id;
-    private String title;
+    public Long id;
+    public String title;
     private String content;
-    private String firstPicture;
+    private String first_picture;
     private String flag;
     private Integer views;
-    private boolean shareStatement;
+    private boolean share_statement;
     private boolean published;
     private boolean recommend;
-    private Date createTime;
-    private Date updateTime;
+    private Date create_time;
+    private Date update_time;
+    private Long type_id;
+    private Long user_id;
 
+    @Transient
+    private String tagIds;
+
+    public String getTagIds() {
+        return tagIds;
+    }
+
+    public String getFirst_picture() {
+        return first_picture;
+    }
+
+    public void setFirst_picture(String first_picture) {
+        this.first_picture = first_picture;
+    }
+
+    public void setTagIds(String tagIds) {
+        this.tagIds = tagIds;
+    }
+
+    public Long getType_id() {
+        return type_id;
+    }
+
+    public void setType_id(Long type_id) {
+        this.type_id = type_id;
+    }
+
+    public Long getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(Long user_id) {
+        this.user_id = user_id;
+    }
+
+    @Transient
     private Type type;
+
+    @Transient
     private List<Tag> tags = new ArrayList<>();
+
+    @Transient
     private User user;
+
+
+    public List<Tag> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<Tag> tags) {
+        this.tags = tags;
+    }
 
     public Blog() {
     }
+
 
     public User getUser() {
         return user;
@@ -70,13 +120,6 @@ public class Blog {
         this.content = content;
     }
 
-    public String getFirstPicture() {
-        return firstPicture;
-    }
-
-    public void setFirstPicture(String firstPicture) {
-        this.firstPicture = firstPicture;
-    }
 
     public String getFlag() {
         return flag;
@@ -92,14 +135,6 @@ public class Blog {
 
     public void setViews(Integer views) {
         this.views = views;
-    }
-
-    public boolean isShareStatement() {
-        return shareStatement;
-    }
-
-    public void setShareStatement(boolean shareStatement) {
-        this.shareStatement = shareStatement;
     }
 
     public boolean isPublished() {
@@ -118,20 +153,51 @@ public class Blog {
         this.recommend = recommend;
     }
 
-    public Date getCreateTime() {
-        return createTime;
+    public Date getCreate_time() {
+        return create_time;
     }
 
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
     }
 
-    public Date getUpdateTime() {
-        return updateTime;
+    public Date getUpdate_time() {
+        return update_time;
     }
 
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
+    public void setUpdate_time(Date update_time) {
+        this.update_time = update_time;
+    }
+
+    public boolean isShare_statement() {
+        return share_statement;
+    }
+
+    public void setShare_statement(boolean share_statement) {
+        this.share_statement = share_statement;
+    }
+
+
+    public void init(){
+        this.tagIds=tagsToIds(this.getTags());
+    }
+
+    private String tagsToIds(List<Tag> tags){
+        if(!tags.isEmpty()){
+            StringBuffer ids= new StringBuffer();
+            boolean flag=false;
+            for(Tag tag:tags){
+                if(flag){
+                    ids.append(",");
+                }else{
+                    flag=true;
+                }
+                ids.append(tag.getId());
+            }
+            return ids.toString();
+        }else{
+            return tagIds;
+        }
     }
 
     @Override
@@ -140,14 +206,14 @@ public class Blog {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", content='" + content + '\'' +
-                ", firstPicture='" + firstPicture + '\'' +
+                ", first_picture='" + first_picture + '\'' +
                 ", flag='" + flag + '\'' +
                 ", views=" + views +
-                ", shareStatement=" + shareStatement +
+                ", share_statement=" + share_statement +
                 ", published=" + published +
                 ", recommend=" + recommend +
-                ", createTime=" + createTime +
-                ", updateTime=" + updateTime +
+                ", createTime=" + create_time +
+                ", updateTime=" + update_time +
                 '}';
     }
 }

@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 @Service
@@ -29,6 +31,22 @@ public class TagService {
 
     public List<Tag> listAllTag(){return tagMapper.listAllTag();};
 
+    public List<Tag> listTags(String ids){
+
+        HashMap map=new HashMap();
+        ArrayList<Long> tagIds=new ArrayList<Long>();
+
+        String sourceStr = ids;
+        String[] sourceStrArray = sourceStr.split(",");
+        for (int i=0;i<sourceStrArray.length;i++){
+            tagIds.add(Long.valueOf(sourceStrArray[i]));
+        }
+
+        map.put("tagIds",tagIds);
+
+        return tagMapper.listTags(map);
+    }
+
     public void updateTag(Long id,String name){
         tagMapper.updateTag(id,name);
     }
@@ -37,7 +55,7 @@ public class TagService {
         tagMapper.deleteTag(id);
     }
 
-    public Type findByName(@Param("id") String name){
+    public Tag findByName(@Param("id") String name){
         return tagMapper.findByName(name);
     }
 }
