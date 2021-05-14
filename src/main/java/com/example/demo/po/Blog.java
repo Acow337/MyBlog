@@ -22,6 +22,15 @@ public class Blog {
     private Date update_time;
     private Long type_id;
     private Long user_id;
+    private String type_name;
+
+    public String getType_name() {
+        return type_name;
+    }
+
+    public void setType_name(String type_name) {
+        this.type_name = type_name;
+    }
 
     @Transient
     private String tagIds;

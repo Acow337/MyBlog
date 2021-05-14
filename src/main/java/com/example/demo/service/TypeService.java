@@ -37,8 +37,20 @@ public class TypeService {
         typeMapper.deleteType(id);
     }
 
-    public Type findByName(@Param("id") String name){
+    public Type findByName(String name){
         return typeMapper.findByName(name);
+    }
+
+    public Type findById(Long id){
+        return typeMapper.findById(id);
+    }
+
+    public void incTypeNum(Long id){
+        typeMapper.incTypeNum(id);
+    }
+
+    public void decTypeNum(Long id){
+        typeMapper.decTypeNum(id);
     }
 
 }

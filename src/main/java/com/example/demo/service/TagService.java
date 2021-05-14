@@ -58,4 +58,12 @@ public class TagService {
     public Tag findByName(@Param("id") String name){
         return tagMapper.findByName(name);
     }
+
+    public void incTagNum(@Param("id")Long id){
+        tagMapper.incTagNum(id);
+    }
+
+    public void decTagNum(@Param("id")Long id){
+        tagMapper.decTagNum(id);
+    }
 }

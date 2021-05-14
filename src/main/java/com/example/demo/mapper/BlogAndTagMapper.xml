@@ -11,4 +11,8 @@
         select blogs_id from blog.blog_tags where tags_id=#{tagId}
     </select>
 
+    <select id="listTagIdByBlog" resultType="Long">
+        select tags_id from blog.blog_tags where blogs_id=#{blogId}
+    </select>
+
 </mapper>

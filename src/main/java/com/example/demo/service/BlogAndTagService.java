@@ -19,4 +19,8 @@ public class BlogAndTagService {
     public List<Long> listBlogByTagId(Long tagId){
         return blogAndTagMapper.listBlogByTagId(tagId);
     }
+
+    public List<Long> listTagIdByBlog(Long blogId){
+        return blogAndTagMapper.listTagIdByBlog(blogId);
+    }
 }

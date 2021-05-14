@@ -1,0 +1,924 @@
+01:42:17.310 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on jinyuzhoudeMacBook-Air.local with PID 2402 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+01:42:17.318 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+01:42:17.451 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+01:42:17.453 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+01:42:18.322 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:42:18.347 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+01:42:19.241 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:42:19.249 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:42:19.249 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:42:19.249 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+01:42:19.316 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:42:19.317 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1863 ms
+01:42:19.509 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:42:20.784 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:42:20.823 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+01:42:20.924 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:42:20.992 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:42:22.023 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+01:42:22.039 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+01:42:44.177 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on jinyuzhoudeMacBook-Air.local with PID 2411 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+01:42:44.179 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+01:42:44.230 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+01:42:44.231 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+01:42:45.147 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:42:45.170 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+01:42:46.083 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:42:46.090 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:42:46.091 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:42:46.091 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+01:42:46.159 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:42:46.161 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1930 ms
+01:42:46.355 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:42:46.542 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:42:46.617 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:42:46.642 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+01:42:46.719 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:42:46.779 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01:42:46.916 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:42:46.924 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:42:47.977 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+01:42:48.007 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:42:48.027 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:42:48.041 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.298 seconds (JVM running for 5.096)
+01:43:00.334 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:43:00.336 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:43:00.341 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+01:43:02.545 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+01:43:02.609 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+01:43:02.610 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:43:03.841 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+01:43:03.853 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+01:43:03.853 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:43:07.038 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+01:43:07.054 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+01:43:07.054 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:43:07.141 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+01:43:07.146 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+01:43:07.146 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:45:08.471 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+01:45:08.483 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:45:08.494 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:45:13.112 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on jinyuzhoudeMacBook-Air.local with PID 2426 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+01:45:13.117 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+01:45:13.178 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+01:45:13.179 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+01:45:14.002 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:45:14.029 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+01:45:14.880 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:45:14.887 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:45:14.888 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:45:14.888 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+01:45:14.953 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:45:14.955 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1775 ms
+01:45:15.149 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:45:15.343 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:45:15.412 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:45:15.437 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+01:45:15.532 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:45:15.593 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01:45:15.709 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:45:15.715 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:45:16.900 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+01:45:16.930 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:45:16.950 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:45:16.964 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.313 seconds (JVM running for 5.261)
+01:45:46.442 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+01:45:46.459 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:45:46.472 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:45:48.893 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on jinyuzhoudeMacBook-Air.local with PID 2431 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+01:45:48.895 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+01:45:48.948 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+01:45:48.948 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+01:45:49.816 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:45:49.845 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+01:45:50.716 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:45:50.722 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:45:50.723 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:45:50.723 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+01:45:50.786 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:45:50.787 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1838 ms
+01:45:50.984 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:45:51.144 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:45:51.208 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:45:51.232 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+01:45:51.311 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:45:51.369 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01:45:51.490 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:45:51.498 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:45:52.580 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+01:45:52.611 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:45:52.631 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:45:52.644 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.24 seconds (JVM running for 5.149)
+01:46:14.134 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:46:14.135 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:46:14.140 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+01:48:44.513 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+01:48:44.568 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+01:48:44.569 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:48:44.683 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+01:48:44.687 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+01:48:44.687 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:48:49.297 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+01:48:49.324 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+01:48:49.324 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:48:49.390 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+01:48:49.396 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+01:48:49.397 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:48:53.557 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+01:48:53.595 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+01:48:53.595 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:48:56.515 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+01:48:56.559 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+01:48:56.560 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:52:00.797 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+01:52:00.814 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:52:00.826 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:52:06.318 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on jinyuzhoudeMacBook-Air.local with PID 2455 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+01:52:06.321 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+01:52:06.387 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+01:52:06.388 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+01:52:07.268 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:52:07.291 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+01:52:08.253 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:52:08.264 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:52:08.265 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:52:08.265 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+01:52:08.352 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:52:08.354 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1966 ms
+01:52:08.580 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:52:08.772 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:52:08.849 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:52:08.877 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+01:52:08.968 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:52:09.039 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01:52:09.164 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:52:09.171 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:52:10.473 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+01:52:10.512 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:52:10.551 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:52:10.579 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.847 seconds (JVM running for 5.734)
+01:52:24.129 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:52:24.131 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:52:24.137 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+01:52:29.830 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+01:52:29.897 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+01:52:29.898 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:52:30.207 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+01:52:30.221 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+01:52:30.221 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:52:30.903 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+01:52:30.928 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+01:52:30.929 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:52:31.037 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+01:52:31.043 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+01:52:31.043 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:52:33.034 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+01:52:33.070 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+01:52:33.070 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:52:33.130 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+01:52:33.134 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+01:52:33.134 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:54:20.429 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+01:54:20.451 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+01:54:20.451 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:54:31.311 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+01:54:31.314 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+01:54:31.314 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:54:31.362 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+01:54:31.365 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+01:54:31.365 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:58:34.774 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+01:58:34.790 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+01:58:34.800 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+01:58:37.633 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on jinyuzhoudeMacBook-Air.local with PID 2490 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+01:58:37.635 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+01:58:37.715 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+01:58:37.717 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+01:58:38.961 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+01:58:39.009 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37 ms. Found 0 JPA repository interfaces.
+01:58:39.989 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+01:58:39.995 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+01:58:39.996 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+01:58:39.996 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+01:58:40.060 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01:58:40.063 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2345 ms
+01:58:40.261 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+01:58:40.437 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+01:58:40.499 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+01:58:40.523 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+01:58:40.600 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+01:58:40.683 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01:58:40.814 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01:58:40.822 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01:58:41.848 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+01:58:41.875 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+01:58:41.893 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+01:58:41.928 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.948 seconds (JVM running for 6.012)
+01:58:42.511 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01:58:42.512 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01:58:42.516 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+01:58:42.585 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+01:58:42.641 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+01:58:42.642 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+01:58:44.583 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+01:58:44.591 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+01:58:44.592 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:00:27.890 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02:00:27.904 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02:00:27.916 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02:00:34.513 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on jinyuzhoudeMacBook-Air.local with PID 2503 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+02:00:34.515 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+02:00:34.565 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02:00:34.566 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02:00:35.391 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02:00:35.413 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+02:00:36.297 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:00:36.303 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:00:36.304 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+02:00:36.304 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+02:00:36.368 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:00:36.371 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1805 ms
+02:00:36.564 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02:00:36.726 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:00:36.788 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02:00:36.812 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+02:00:36.894 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02:00:36.952 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02:00:37.079 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02:00:37.085 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02:00:38.165 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:00:38.193 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:00:38.213 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:00:38.226 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.17 seconds (JVM running for 5.059)
+02:00:46.711 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:00:46.712 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:00:46.717 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+02:00:46.782 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+02:00:46.830 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+02:00:46.830 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:00:49.238 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+02:00:49.266 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+02:00:49.266 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:01:40.363 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+02:01:40.377 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+02:01:40.390 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+02:01:45.582 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on jinyuzhoudeMacBook-Air.local with PID 2511 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+02:01:45.584 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+02:01:45.634 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+02:01:45.634 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+02:01:46.398 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+02:01:46.428 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 0 JPA repository interfaces.
+02:01:47.350 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+02:01:47.357 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+02:01:47.357 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+02:01:47.358 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+02:01:47.423 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:01:47.424 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1789 ms
+02:01:47.620 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+02:01:47.783 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+02:01:47.847 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+02:01:47.871 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+02:01:47.951 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+02:01:48.010 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+02:01:48.132 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+02:01:48.138 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+02:01:49.238 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+02:01:49.267 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+02:01:49.286 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+02:01:49.307 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.14 seconds (JVM running for 4.958)
+02:01:56.686 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+02:01:56.688 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+02:01:56.693 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+02:01:56.735 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+02:01:56.785 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+02:01:56.786 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:01:59.269 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+02:01:59.298 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+02:01:59.298 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:00.588 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+02:02:00.643 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+02:02:00.644 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:00.773 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+02:02:00.778 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+02:02:00.778 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:01.964 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/2/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[2, 0, 6, {}]}
+02:02:01.991 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+02:02:01.991 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:02.069 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+02:02:02.076 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+02:02:02.076 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:02.788 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[1, 0, 6, {}]}
+02:02:02.826 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+02:02:02.826 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:02.915 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+02:02:02.917 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+02:02:02.917 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:04.154 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.controller.ArchiveShowController.archives', args=[{}]}
+02:02:04.204 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}archives
+02:02:04.204 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:04.274 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+02:02:04.277 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+02:02:04.277 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:05.006 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.example.demo.controller.AboutShowController.about', args=[]}
+02:02:05.025 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}about
+02:02:05.025 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:05.108 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+02:02:05.111 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+02:02:05.111 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:10.526 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+02:02:10.550 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+02:02:10.554 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+02:02:10.622 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+02:02:10.625 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+02:02:10.625 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:34:16.454 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+08:34:16.470 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+08:34:16.471 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:34:16.583 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:34:16.586 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:34:16.587 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:37:51.284 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+08:37:51.305 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+08:37:51.305 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:37:51.395 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:37:51.398 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:37:51.399 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:43.785 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+08:38:43.801 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+08:38:43.803 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:43.879 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:38:43.882 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:38:43.882 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:44.655 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+08:38:44.677 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+08:38:44.677 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:44.759 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:38:44.765 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:38:44.765 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:45.932 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+08:38:45.961 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+08:38:45.961 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:46.049 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:38:46.054 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:38:46.055 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:49.939 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/3/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[3, 0, 6, {}]}
+08:38:49.962 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+08:38:49.963 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:50.045 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:38:50.047 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:38:50.047 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:50.959 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/2/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[2, 0, 6, {}]}
+08:38:50.975 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+08:38:50.976 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:51.046 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:38:51.048 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:38:51.048 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:51.989 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+08:38:52.016 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+08:38:52.017 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:52.085 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:38:52.088 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:38:52.088 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:52.959 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.controller.ArchiveShowController.archives', args=[{}]}
+08:38:52.974 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}archives
+08:38:52.974 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:53.056 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:38:53.058 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:38:53.058 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:55.980 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.example.demo.controller.AboutShowController.about', args=[]}
+08:38:55.981 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}about
+08:38:55.981 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:38:56.050 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:38:56.053 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:38:56.053 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:39:03.095 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+08:39:03.121 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+08:39:03.122 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:39:03.221 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:39:03.229 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:39:03.229 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:41:36.707 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+08:41:36.735 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+08:41:36.735 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:41:36.807 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:41:36.809 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:41:36.809 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:41:37.736 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+08:41:37.745 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+08:41:37.746 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:41:37.812 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:41:37.814 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:41:37.815 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:41:38.422 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+08:41:38.443 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+08:41:38.443 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:41:38.509 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:41:38.511 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:41:38.511 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:42:07.109 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+08:42:07.131 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+08:42:07.132 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:42:07.216 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+08:42:07.226 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+08:42:07.227 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+08:49:54.958 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+08:49:54.977 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+08:49:54.991 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:14:16.835 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on promote.cache-dns.local with PID 3212 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+09:14:16.844 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:14:16.928 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+09:14:16.929 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+09:14:17.686 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:14:17.706 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+09:14:18.644 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:14:18.651 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:14:18.652 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:14:18.652 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+09:14:18.746 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:14:18.749 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1819 ms
+09:14:18.938 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:14:19.133 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:14:19.202 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:14:19.232 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+09:14:19.321 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09:14:19.384 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:14:19.517 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:14:19.525 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:14:20.637 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:14:20.664 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:14:20.682 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:14:20.695 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 24.464 seconds (JVM running for 30.269)
+09:14:28.775 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:14:28.778 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:14:28.783 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+09:14:28.831 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+09:14:28.916 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+09:14:28.917 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:31.628 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:31.646 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:31.647 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:31.684 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+09:14:31.697 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+09:14:31.697 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:34.578 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+09:14:34.610 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+09:14:34.611 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:34.702 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:34.714 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:34.715 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:35.822 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+09:14:35.876 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+09:14:35.876 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:35.941 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:35.943 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:35.943 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:36.883 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/2/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[2, 0, 6, {}]}
+09:14:36.901 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+09:14:36.901 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:36.985 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:36.987 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:36.987 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:38.212 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.controller.ArchiveShowController.archives', args=[{}]}
+09:14:38.250 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}archives
+09:14:38.250 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:38.316 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:38.322 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:38.323 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:40.183 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.example.demo.controller.AboutShowController.about', args=[]}
+09:14:40.208 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}about
+09:14:40.209 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:40.278 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:40.282 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:40.283 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:41.184 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+09:14:41.205 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+09:14:41.205 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:41.262 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:41.265 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:41.265 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:41.797 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+09:14:41.809 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+09:14:41.810 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:41.884 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:41.886 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:41.886 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:43.242 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+09:14:43.252 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+09:14:43.252 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:14:43.322 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:14:43.325 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:14:43.325 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:15:51.543 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+09:15:51.568 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+09:15:51.569 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:15:51.664 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:15:51.667 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:15:51.667 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:16:29.324 [Thread-53] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:16:29.334 [Thread-53] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:16:29.349 [Thread-53] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:16:49.775 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on promote.cache-dns.local with PID 3212 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+09:16:49.783 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:16:50.114 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:16:50.123 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+09:16:50.337 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:16:50.342 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:16:50.342 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:16:50.343 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+09:16:50.355 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:16:50.356 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 537 ms
+09:16:50.448 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+09:16:50.462 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+09:16:50.468 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:16:50.472 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:16:50.483 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:16:50.483 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:16:50.948 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:16:50.961 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:16:50.964 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:16:50.971 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 21.432 seconds (JVM running for 180.549)
+09:16:50.979 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:16:52.511 [Thread-60] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:16:52.514 [Thread-60] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+09:16:52.522 [Thread-60] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+09:17:12.863 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on promote.cache-dns.local with PID 3212 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+09:17:12.866 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+09:17:13.080 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:17:13.085 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+09:17:13.251 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+09:17:13.253 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:17:13.253 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:17:13.253 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+09:17:13.266 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:17:13.267 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 374 ms
+09:17:13.313 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+09:17:13.322 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+09:17:13.326 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:17:13.330 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+09:17:13.338 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09:17:13.338 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:17:13.752 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+09:17:13.763 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:17:13.765 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+09:17:13.769 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 21.104 seconds (JVM running for 203.347)
+09:17:13.770 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+09:18:44.514 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:18:44.524 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:18:44.536 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+09:18:44.570 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+09:18:44.605 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+09:18:44.606 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:44.798 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:44.821 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:44.821 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:46.328 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+09:18:46.362 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+09:18:46.363 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:46.441 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:46.442 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:46.443 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:47.507 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.controller.ArchiveShowController.archives', args=[{}]}
+09:18:47.532 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}archives
+09:18:47.533 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:47.601 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:47.606 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:47.606 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:48.233 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.example.demo.controller.AboutShowController.about', args=[]}
+09:18:48.260 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}about
+09:18:48.261 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:48.325 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:48.332 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:48.332 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:49.906 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.controller.ArchiveShowController.archives', args=[{}]}
+09:18:49.932 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}archives
+09:18:49.933 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:50.011 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:50.013 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:50.013 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:51.472 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+09:18:51.489 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+09:18:51.489 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:51.570 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:51.571 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:51.571 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:53.640 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/2/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[2, 0, 6, {}]}
+09:18:53.654 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+09:18:53.654 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:53.734 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:53.736 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:53.736 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:54.532 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/3/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[3, 0, 6, {}]}
+09:18:54.541 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+09:18:54.541 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:54.617 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:54.620 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:54.620 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:55.840 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+09:18:55.857 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+09:18:55.858 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:55.932 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:55.934 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:55.934 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:57.300 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+09:18:57.328 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+09:18:57.328 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:57.397 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:57.401 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:57.401 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:58.578 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+09:18:58.596 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+09:18:58.598 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:58.666 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:58.668 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:58.669 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:59.165 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+09:18:59.170 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+09:18:59.171 [http-nio-8080-exec-5] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:59.260 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:59.261 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:59.261 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:59.858 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+09:18:59.882 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+09:18:59.882 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+09:18:59.947 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+09:18:59.949 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+09:18:59.949 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+13:59:55.995 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+13:59:56.024 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+13:59:56.025 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+13:59:56.133 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+13:59:56.141 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+13:59:56.142 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+13:59:57.288 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+13:59:57.305 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+13:59:57.306 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+13:59:57.409 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+13:59:57.414 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+13:59:57.414 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+13:59:58.268 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.controller.ArchiveShowController.archives', args=[{}]}
+13:59:58.292 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}archives
+13:59:58.292 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+13:59:58.369 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+13:59:58.383 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+13:59:58.383 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+13:59:59.355 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.example.demo.controller.AboutShowController.about', args=[]}
+13:59:59.356 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}about
+13:59:59.356 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+13:59:59.421 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+13:59:59.423 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+13:59:59.423 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:00:00.200 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.controller.ArchiveShowController.archives', args=[{}]}
+14:00:00.213 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}archives
+14:00:00.214 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:00:00.280 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:00:00.283 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:00:00.283 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:00:00.795 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+14:00:00.812 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+14:00:00.812 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:00:00.909 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:00:00.911 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:00:00.911 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:00:01.446 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+14:00:01.452 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+14:00:01.452 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:00:01.535 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:00:01.540 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:00:01.540 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:00:02.027 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+14:00:02.048 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+14:00:02.050 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:00:02.133 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:00:02.140 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:00:02.140 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:03:33.021 [Thread-65] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:03:33.029 [Thread-65] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+14:03:33.041 [Thread-65] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+14:04:03.045 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on promote.cache-dns.local with PID 3999 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+14:04:03.053 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+14:04:03.133 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:04:03.134 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:04:03.858 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:04:03.874 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+14:04:04.792 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:04:04.798 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:04:04.799 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:04:04.799 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+14:04:04.889 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:04:04.891 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1756 ms
+14:04:05.071 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:04:05.247 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:04:05.318 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:04:05.348 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+14:04:05.437 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:04:05.499 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:04:05.629 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:04:05.638 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:04:06.777 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:04:06.807 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:04:06.825 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:04:06.846 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 24.337 seconds (JVM running for 30.064)
+14:04:08.316 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:04:08.318 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:04:08.322 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+14:04:08.350 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.goToIndex', args=[]}
+14:04:08.363 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}redirect:/0/6
+14:04:08.363 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:08.441 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+14:04:08.506 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+14:04:08.507 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:09.923 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.goToIndex', args=[]}
+14:04:09.925 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}redirect:/0/6
+14:04:09.925 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:09.945 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+14:04:09.969 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+14:04:09.969 [http-nio-8080-exec-4] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:11.101 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:11.111 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:11.111 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:13.464 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+14:04:13.480 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+14:04:13.480 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:13.553 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:13.555 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:13.555 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:16.424 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+14:04:16.451 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+14:04:16.452 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:16.529 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:16.535 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:16.535 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:16.762 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.goToIndex', args=[]}
+14:04:16.763 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}redirect:/0/6
+14:04:16.763 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:16.774 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+14:04:16.786 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+14:04:16.787 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:16.849 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:16.851 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:16.851 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:30.400 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/types/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TypeShowController.types', args=[-1, 0, 6, {}]}
+14:04:30.434 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}types
+14:04:30.434 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:30.500 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:30.503 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:30.503 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:31.049 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/tags/-1/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.TagsShowController.tags', args=[-1, 0, 6, {}]}
+14:04:31.103 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}tags
+14:04:31.103 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:31.169 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:31.171 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:31.171 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:31.631 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.controller.ArchiveShowController.archives', args=[{}]}
+14:04:31.667 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}archives
+14:04:31.668 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:31.741 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:31.745 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:31.745 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:32.723 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.example.demo.controller.AboutShowController.about', args=[]}
+14:04:32.748 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - Result : {}about
+14:04:32.749 [http-nio-8080-exec-10] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:32.839 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:32.843 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:32.843 [http-nio-8080-exec-8] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:34.850 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/about', ip='127.0.0.1', classMethod='com.example.demo.controller.AboutShowController.about', args=[]}
+14:04:34.851 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}about
+14:04:34.851 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:34.940 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:34.942 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:34.943 [http-nio-8080-exec-3] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:35.517 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.goToIndex', args=[]}
+14:04:35.519 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - Result : {}redirect:/0/6
+14:04:35.519 [http-nio-8080-exec-9] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:35.536 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+14:04:35.548 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+14:04:35.549 [http-nio-8080-exec-2] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:35.634 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:35.638 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:35.639 [http-nio-8080-exec-1] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:37.607 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.goToIndex', args=[]}
+14:04:37.608 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - Result : {}redirect:/0/6
+14:04:37.608 [http-nio-8080-exec-7] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:37.615 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/0/6', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.index', args=[{}, 0, 6]}
+14:04:37.632 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}index
+14:04:37.633 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:04:37.679 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Request : RequestLog{url='http://127.0.0.1:8080/footer/newBlog', ip='127.0.0.1', classMethod='com.example.demo.controller.IndexController.newBlogs', args=[{}]}
+14:04:37.681 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - Result : {}fragments :: newBlogList
+14:04:37.682 [http-nio-8080-exec-6] INFO  com.example.demo.aspect.LogAspect - -----------doAfter-----------
+14:10:48.345 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:10:48.359 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:10:48.375 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:11:19.050 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on promote.cache-dns.local with PID 4039 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+14:11:19.060 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+14:11:19.132 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:11:19.133 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:11:19.824 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:11:19.839 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+14:11:20.721 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:11:20.728 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:11:20.728 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:11:20.728 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+14:11:20.814 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:11:20.817 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1684 ms
+14:11:20.998 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:11:21.200 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:11:21.262 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:11:21.286 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+14:11:21.366 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:11:21.423 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:11:21.548 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:11:21.555 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:11:22.638 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:11:22.667 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:11:22.684 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:11:22.704 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 24.221 seconds (JVM running for 29.942)
+14:11:34.228 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:11:34.230 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:11:34.233 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+14:12:48.538 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:12:48.548 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:12:48.560 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:13:19.081 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on promote.cache-dns.local with PID 4065 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+14:13:19.090 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+14:13:19.181 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:13:19.182 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:13:19.887 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:13:19.906 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+14:13:20.887 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:13:20.893 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:13:20.893 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:13:20.894 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+14:13:20.995 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:13:20.996 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1813 ms
+14:13:21.209 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:13:21.401 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:13:21.468 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:13:21.492 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+14:13:21.568 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:13:21.628 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:13:21.762 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:13:21.771 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:13:22.925 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:13:22.954 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:13:22.972 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:13:22.991 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 24.487 seconds (JVM running for 30.192)
+14:13:35.928 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:13:35.931 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:13:35.934 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+14:22:18.276 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:22:18.285 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:22:18.301 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:22:46.879 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on promote.cache-dns.local with PID 4147 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+14:22:46.889 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+14:22:46.964 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:22:46.964 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:22:47.686 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:22:47.702 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+14:22:48.611 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:22:48.618 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:22:48.618 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:22:48.619 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+14:22:48.708 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:22:48.710 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1745 ms
+14:22:48.893 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:22:49.094 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:22:49.163 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:22:49.187 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+14:22:49.267 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:22:49.326 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:22:49.446 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:22:49.453 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:22:50.583 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:22:50.613 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:22:50.630 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:22:50.650 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 24.335 seconds (JVM running for 30.042)
+14:27:34.573 [SpringContextShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:27:34.579 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:27:34.592 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:27:36.856 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication using Java 1.8.0_292 on promote.cache-dns.local with PID 4184 (/Users/jinyuzhou/Desktop/MyDemo/MyBlog/target/classes started by jinyuzhou in /Users/jinyuzhou/Desktop/MyDemo/MyBlog)
+14:27:36.858 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+14:27:36.908 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:27:36.909 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+14:27:37.721 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:27:37.744 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+14:27:38.608 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:27:38.614 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:27:38.615 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:27:38.615 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+14:27:38.681 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:27:38.682 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1773 ms
+14:27:38.869 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:27:39.029 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:27:39.099 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:27:39.122 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.29.Final
+14:27:39.204 [restartedMain] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+14:27:39.261 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+14:27:39.381 [restartedMain] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:27:39.387 [restartedMain] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:27:40.457 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:27:40.485 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:27:40.504 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+14:27:40.524 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.099 seconds (JVM running for 5.229)

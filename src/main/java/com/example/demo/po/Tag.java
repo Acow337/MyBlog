@@ -11,6 +11,7 @@ public class Tag {
 
     private Long id;
     private String name;
+    public int num;
 
     private List<Blog> blogs =new ArrayList<>();
 

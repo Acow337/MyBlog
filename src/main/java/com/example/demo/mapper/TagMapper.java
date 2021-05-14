@@ -27,4 +27,8 @@ public interface TagMapper {
     void deleteTag(@Param("id") Long id);
 
     Tag findByName(@Param("id") String name);
+
+    void incTagNum(@Param("id")Long id);
+
+    void decTagNum(@Param("id")Long id);
 }

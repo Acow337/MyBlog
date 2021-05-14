@@ -25,17 +25,20 @@ public class IndexController {
     @Autowired
     TypeService typeService;
 
+    @GetMapping("/")
+    public String goToIndex(){
+        return "redirect:/0/6";
+    }
+
     @GetMapping("/{num}/{size}")
     public String index(Model model,
                         @PathVariable("num")Integer num,
                         @PathVariable("size")Integer size){
-
 //        HashMap<Integer,Integer> map = new HashMap<>();
 //        for(type : typeService.listAllType()){
 //            map.put(,blogService.listBlogByTypeId());
 //        }
 //        model.addAttribute("typeCount",);
-
         model.addAttribute("num", num);
         model.addAttribute("size",size);
 
@@ -56,7 +59,6 @@ public class IndexController {
 
         model.addAttribute("num",num);
         model.addAttribute("size",size);
-
         model.addAttribute("page",blogService.listBlog(num,size));
         model.addAttribute("types",typeService.listType(0,6));
         model.addAttribute("pageNum",blogService.listAllBlog().size()/size+1);
@@ -111,7 +113,6 @@ public class IndexController {
     @GetMapping("/footer/newBlog")
     public String newBlogs(Model model){
         model.addAttribute("newBlogs",blogService.listNewBlog(3));
-
 
         return "fragments :: newBlogList";
     }

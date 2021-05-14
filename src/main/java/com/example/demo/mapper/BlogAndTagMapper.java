@@ -12,4 +12,6 @@ public interface BlogAndTagMapper {
     void insert(@Param("blogId")Long blogId,@Param("tagId")Long tagId);
 
     List<Long> listBlogByTagId(@Param("tagId")Long tagId);
+
+    List<Long> listTagIdByBlog(@Param("blogId")Long blogId);
 }

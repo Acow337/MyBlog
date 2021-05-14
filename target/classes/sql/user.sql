@@ -1,0 +1,1 @@
+INSERT INTO `user` (`id`, `nickname`, `username`, `password`, `email`, `avatar`, `type`, `create_time`, `update_time`) VALUES (1, 'User', 'root', '12345678', 'yzjin2001@qq.com', '1', '1', '2021-05-14 00:58:47', '2021-05-14 00:58:50');

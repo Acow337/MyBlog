@@ -22,5 +22,12 @@ public interface TypeMapper {
 
     void deleteType(@Param("id") Long id);
 
-    Type findByName(@Param("id") String name);
+    Type findByName(@Param("name") String name);
+
+    Type findById(@Param("id")Long id);
+
+    void incTypeNum(@Param("id")Long id);
+
+    void decTypeNum(@Param("id")Long id);
+
 }

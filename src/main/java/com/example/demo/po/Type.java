@@ -12,6 +12,8 @@ public class Type {
     @NotNull
     private String name;
 
+    public int num;
+
     private List<Blog> blogs=new ArrayList<>();
 
     public Type(){

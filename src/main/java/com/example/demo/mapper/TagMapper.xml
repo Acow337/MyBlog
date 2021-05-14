@@ -3,7 +3,7 @@
 
 <mapper namespace="com.example.demo.mapper.TagMapper">
     <insert id="saveTag">
-        insert into blog.tag(name) VALUES(#{name})
+        insert into blog.tag(name,num) VALUES(#{name},0)
     </insert>
 
     <select id="getTag" resultType="Tag">
@@ -40,5 +40,13 @@
     <select id="findByName" resultType="Tag">
         select * from blog.tag where name=#{name}
     </select>
+
+    <update id="incTagNum">
+        update tag set num=num+1 where id=#{id}
+    </update>
+
+    <update id="decTagNum">
+        update tag set num=num-1 where id=#{id}
+    </update>
 
 </mapper>

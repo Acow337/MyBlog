@@ -99,7 +99,7 @@
             <tr th:each="blog : ${page}">
                 <td th:text="${blog.id}">1</td>
                 <td th:text="${blog.title}">刻意练习清单</td>
-   <!-- ???????分类名字-->           <td th:text="${blog.type_id}">认知升级</td>
+                <td th:text="${blog.type_name}">认知升级</td>
                 <td th:text="${blog.recommend}?'是':'否'">是</td>
                 <td th:text="${blog.published}?'草稿':'发布'">发布</td>
                 <td th:text="${#dates.format(blog.update_time,'yyyy-MM-dd HH:mm')}">2020-3-29 21:56</td>

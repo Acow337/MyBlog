@@ -19,7 +19,6 @@ public class LoginController {
     @Autowired
     private UserService userService;
 
-
     @GetMapping
     public String loginPage(){
         return "admin/login";
