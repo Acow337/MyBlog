@@ -1,10 +1,10 @@
-# MyBlog（基于springboot的个人博客系统）
+# MyBlog（基于Spring Boot的个人博客系统）
 
 
 
 #### 简单介绍：
 
-​	这是一个简单的个人博客项目，使用springboot项目搭建，用mybatis为持久层，遵从Restful接口规范。
+​	这是一个简单的个人博客项目，使用Spring Boot项目搭建，用MyBatis为持久层，遵从RESTful接口规范。
 
 
 
